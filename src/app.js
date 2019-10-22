@@ -31,6 +31,20 @@ app.get('/about', (req, res) => {
     })
 })
 
+app.get('/gallery', (req, res) => {
+    res.render('gallery', {
+        title: 'About Me',
+        name: 'Andrew Mead'
+    })
+})
+
+app.get('/home', (req, res) => {
+    res.render('home', {
+        title: 'About Me',
+        name: 'Andrew Mead'
+    })
+})
+
 app.get('/help', (req, res) => {
     res.render('help', {
         helpText: 'This is some helpful text.',
