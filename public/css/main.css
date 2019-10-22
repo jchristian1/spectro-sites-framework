@@ -821,7 +821,7 @@ svg {
     width: 28%;
     bottom: 30%;
     left: 12%;
-    color: #fff;
+    color: #000000;
     transition: -webkit-transform 0.5s 0.8s, opacity 0.5s 0.8s;
     transition: transform 0.5s 0.8s, opacity 0.5s 0.8s;
     will-change: transform, opacity;
@@ -843,8 +843,8 @@ svg {
 span.border-text {
     font-family: 'azedolight';
     font-weight: 100;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #000000;
+    border: 2px solid #000000;
     padding: 15px;
     margin-left: 10px;
     margin-right: 10px;
